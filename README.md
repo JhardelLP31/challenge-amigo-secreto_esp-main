@@ -30,7 +30,7 @@ Una pequeña aplicación web en JavaScript puro que permite gestionar una lista 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/gestor-dibujitos.git;
+git clone https://github.com/JhardelLP31/challenge-amigo-secreto_esp-main.git
 ```
 2. Abre el archivo index.html en tu navegador.
 
