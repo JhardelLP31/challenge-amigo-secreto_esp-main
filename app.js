@@ -95,11 +95,12 @@ function deleteFriend(cod) {
 }
 
 function fetchFriend() {
-    let lengthFriends = Math.floor(Math.random() * totalFriends.length);
+    let lengthFriends = Math.floor(Math.random() * totalFriends.length);    
     console.log(lengthFriends);
-
-            ShowAlert("¡REVELACIÓN!", `El amigo secreto es ${totalFriends[lengthFriends]}`, "success");
-
+    ShowAlert("¡REVELACIÓN!", `El amigo secreto es ${totalFriends[lengthFriends]}`, "success");
+    totalFriends.splice(lengthFriends, 1);
+    listFriend();
+    enabledButon();
 }
 
 function ShowAlert(tittle, text, icon) {
