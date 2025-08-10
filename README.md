@@ -1,4 +1,4 @@
-# 🎨 Gestor de Dibujitos (Amigos)
+# 🎨 Amigo Secreto
 
 Una pequeña aplicación web en JavaScript puro que permite gestionar una lista de amigos, agregarlos, editarlos, eliminarlos y seleccionar un "amigo secreto" al azar.
 
